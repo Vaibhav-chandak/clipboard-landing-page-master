@@ -1,0 +1,263 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer {
+  background-color: lightgrey;
+}
+
+a:hover {
+  color: black;
+}
+
+.logo {
+  text-align: center;
+  padding: 20% 0;
+}
+
+.heading {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  font-weight: 900;
+  padding-bottom: 5%;
+}
+
+.row {
+  margin: 0
+}
+
+.para {
+  text-align: center;
+  margin: auto;
+  width: 85%;
+  padding-bottom: 15%;
+}
+
+.header-btn1 {
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #26baa4;
+  display: block;
+  margin: 2% auto;
+  width: 10rem;
+}
+
+.header-btn2 {
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #6173ff;
+  display: block;
+  margin: 2% auto;
+  width: 10rem;
+}
+
+.second {
+  margin-top: 30%;
+}
+
+.img-div {
+  width: 100%;
+}
+
+.img {
+  width: inherit;
+  padding: 5%;
+  padding-bottom: 20%;
+}
+
+.fourth {
+  margin-top: 40%;
+}
+
+.img-2-div {
+  width: 100%;
+}
+
+.img-2 {
+  width: inherit;
+  padding: 5%;
+  padding-bottom: 20%;
+}
+
+.icon-div {
+  text-align: center;
+  padding: 10%;
+}
+
+.company-logo-div {
+  text-align: center;
+}
+
+.company-logo {
+  padding: 10%;
+}
+
+.seventh {
+  margin: 25% auto;
+}
+
+.eighth {
+  background-color: lightgrey;
+  padding: 15%;
+  padding-bottom: 5%;
+}
+
+
+.logo-footer {
+  width: 5rem;
+  margin: 10% auto;
+}
+
+.contact-div {
+  text-align: center;
+}
+
+.social {
+  padding: 5%;
+}
+
+.attribution {
+  font-size: 11px;
+  margin-top: 5%;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 900px) {
+  header {
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .logo {
+    padding: 7%;
+  }
+
+  .heading {
+    padding-bottom: 2%;
+  }
+
+  .para {
+    width: 40%;
+    padding-bottom: 0;
+  }
+
+  .header-btn1, .header-btn2 {
+    margin: 2% 0.5%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .second {
+    margin-top: 7%;
+  }
+
+  .row {
+    margin-top: 5%;
+    justify-content: center;
+  }
+
+  .img {
+    position: relative;
+    right: 100px;
+  }
+
+  .third .heading{
+    text-align: left;
+    margin-top: 8%;
+    padding-bottom: 1%;
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+
+  .third .para {
+    width: 53%;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .fourth {
+    margin-top: 0;
+  }
+
+  .img-2-div {
+    text-align: center;
+  }
+
+  .fourth .para {
+    width: 45%;
+  }
+
+  .img-2 {
+    width: 70%;
+    padding-bottom: 0;
+  }
+
+  .fifth {
+    margin-top: 5%;
+  }
+
+  .fifth .heading {
+    padding-bottom: 1%;
+  }
+
+  .icon-div-1 {
+    padding-top: 22px;
+  }
+
+  .row-1 .heading {
+    padding-bottom: 5%;
+    font-size: 1.5rem;
+  }
+
+  .fifth .para {
+    width: 100%;
+  }
+
+  .sixth {
+    margin: 10% auto;
+  }
+
+  .company-logo {
+    width: 90%;
+  }
+
+  .seventh {
+    margin-top: 0;
+    margin-bottom: 7%;
+  }
+
+  .eighth {
+    padding: 0;
+    padding-top: 2%;
+    padding-bottom: 0.1%;
+  }
+
+  .contact-div {
+    margin: 0;
+  }
+
+  .logo-footer {
+    width: 3rem;
+    margin: 0;
+  }
+
+  .contact {
+    text-align: left;
+  }
+
+  .attribution {
+    margin-top: 0;
+    text-align: center;
+  }
+}
